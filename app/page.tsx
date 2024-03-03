@@ -5,7 +5,6 @@ import styles from '@/app/ui/home.module.css';
 import { lusitana, noto } from '@/app/ui/fonts';
 import Image from 'next/image';
 
-
 export default function Page() {
   
   return (
@@ -26,9 +25,6 @@ export default function Page() {
               Next.js Learn Course
             </a>
             , brought to you by Vercel.
-          </p>
-          <p className={`${noto.className} text-gray-500`}>
-            好好学习，天天向上 brought to you by Vercel
           </p>
           <Link
             href="/login"
