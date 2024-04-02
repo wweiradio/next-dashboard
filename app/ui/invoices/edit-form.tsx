@@ -142,8 +142,8 @@ export default function EditInvoiceForm({
 
       {/*error display*/}
       <div id="state-error" aria-live="polite" aria-atomic="true">
-        {state.errors?.state &&
-          state.errors.state.map((error: string) => (
+        {state.errors?.status &&
+          state.errors.status.map((error: string) => (
             <p className="mt-2 text-sm text-red-500" key={error}>
               {error}
             </p>
